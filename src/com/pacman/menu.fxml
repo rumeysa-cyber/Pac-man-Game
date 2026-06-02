@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.pacman.controller.MenuController"
+      alignment="CENTER"
+      spacing="15"
+      style="-fx-background-color: black;">
+
+    <Label text="PAC-MAN"
+           style="-fx-text-fill: yellow; -fx-font-size: 42px; -fx-font-weight: bold;" />
+
+    <TextField fx:id="usernameField"
+               promptText="Username"
+               maxWidth="250" />
+
+    <PasswordField fx:id="passwordField"
+                   promptText="Password"
+                   maxWidth="250" />
+
+    <Label fx:id="messageLabel"
+           text=""
+           style="-fx-text-fill: red;" />
+
+    <HBox alignment="CENTER" spacing="15">
+        <Button text="Login"
+                onAction="#login"
+                style="-fx-background-color: yellow; -fx-font-weight: bold;" />
+
+        <Button text="Register"
+                onAction="#register"
+                style="-fx-background-color: lightgreen; -fx-font-weight: bold;" />
+    </HBox>
+
+    <Button text="Exit"
+            onAction="#exitGame" />
+    <Button text="High Scores"
+            onAction="#showHighScores"
+            style="-fx-background-color: lightblue; -fx-font-weight: bold;" />
+
+</VBox>

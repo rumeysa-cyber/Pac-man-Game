@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.pacman.controller.GameController"
+            style="-fx-background-color: black;">
+
+    <top>
+        <HBox spacing="30"
+              alignment="CENTER"
+              style="-fx-padding: 10; -fx-background-color: #111111;">
+            <Label fx:id="usernameLabel"
+                   text="Player:"
+                   style="-fx-text-fill: white; -fx-font-size: 16px;" />
+
+            <Label fx:id="scoreLabel"
+                   text="Score: 0"
+                   style="-fx-text-fill: yellow; -fx-font-size: 16px;" />
+
+            <Label fx:id="livesLabel"
+                   text="Lives: 3"
+                   style="-fx-text-fill: red; -fx-font-size: 16px;" />
+        </HBox>
+    </top>
+
+    <center>
+        <Canvas fx:id="gameCanvas"
+                width="700"
+                height="490" />
+    </center>
+
+    <Label fx:id="levelLabel"
+           text="Level: 1"
+           style="-fx-text-fill: lightgreen; -fx-font-size: 16px;" />
+
+</BorderPane>

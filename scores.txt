@@ -1,0 +1,14 @@
+rumeysa1 - 0
+rumeysa1 - 0
+rumeysa1,270,1
+rumeysa1,230,1
+rumeysa1,280,1
+rumeysa1,990,4
+rumeysa1,1110,4
+rumeysa1,330,2
+rumeysa1,940,4
+rumeysa1,120,1
+rumeysa1,620,3
+rumeysa1,60,1
+pacmanx,1130,5
+lordofthegame,670,3
