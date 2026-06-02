@@ -41,7 +41,7 @@ src/
 
 ## Author
 
-Merve Satılmış
+Rümeysa Satılmış
 
 ## GitHub Repository
 
